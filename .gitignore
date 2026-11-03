@@ -1,0 +1,108 @@
+# Root .gitignore for the bratos repository
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor folders
+.idea/
+.vscode/
+
+# Node.js / JavaScript artifacts
+/demo/node_modules/
+/demo/.next/
+/demo/.vite/
+/demo/dist/
+/demo/out/
+/demo/.vercel/
+/demo/.parcel-cache/
+/demo/.turbo/
+/demo/.wrangler/
+/demo/.cache/
+/demo/npm-debug.log*
+/demo/yarn-debug.log*
+/demo/yarn-error.log*
+/demo/.pnp
+/demo/.pnp.*
+/demo/.yarn/*
+!/demo/.yarn/patches
+!/demo/.yarn/plugins
+!/demo/.yarn/releases
+!/demo/.yarn/versions
+/demo/*.tsbuildinfo
+/demo/.env*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+*.pyo
+*.pyd
+*.pym
+.Python
+env/
+venv/
+ENV/
+venv*/
+ENV*/
+.python-version
+.mypy_cache/
+.pyre/
+
+# Virtual environment
+.venv/
+.venv-option2/
+.venv-*/
+/data/generated/
+/harness/state/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Misc
+*.pem
+*.key
+*.crt
+*.der
+.tls/
+*.p12
+*.pfx
+
+# PACE launch state and generated results
+/pace/.env
+/pace/.jobid
+/pace/logs/
+/pace/results/
+/pace/runs/
+!/pace/.env.example
+!/cloudlab/.env.example
+/cloudlab/state/
+/cloudlab/logs/
+/cloudlab/results/
+/cloudlab/runs/
+
+# Build outputs
+/build/
+dist/
+/coverage/

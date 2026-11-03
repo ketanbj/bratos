@@ -1,0 +1,130 @@
+{
+  "sources": [
+    {
+      "url": "https://api.starlink.com/public-files/availability.json",
+      "file": "availability.json",
+      "sha256": "06d843d43e2b9b6247a1cf56dc084776a96abeb87a9d1a52ec0d665e2e969f01",
+      "bytes": 22688,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "22688",
+        "Content-Type": "application/json",
+        "Expires": "Tue, 06 Oct 2026 03:05:15 GMT",
+        "Last-Modified": "Tue, 22 Sep 2026 01:33:45 GMT",
+        "ETag": "\"5c5673d2bbe296fceaf3edb7f0d25668\"",
+        "x-goog-generation": "1790040825831851",
+        "x-goog-metageneration": "1",
+        "x-goog-stored-content-encoding": "identity",
+        "x-goog-stored-content-length": "22688",
+        "x-amz-checksum-crc32c": "SFgrJQ==",
+        "Accept-Ranges": "bytes",
+        "Date": "Tue, 06 Oct 2026 03:08:14 GMT",
+        "X-Cache": "HIT",
+        "X-Cache-Hits": "0",
+        "X-Timer": "S1791256094.235727,VS0,VE1",
+        "Strict-Transport-Security": "max-age=31557600",
+        "X-Robots-Tag": "none",
+        "server": "whydoyoucare?",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block",
+        "Vary": "Origin, Accept-Encoding",
+        "Cache-Control": "max-age=60, must-revalidate"
+      },
+      "retrieved_at": "2026-10-06T03:08:16.793851+00:00"
+    },
+    {
+      "url": "https://api.starlink.com/public-files/availability-cells.pb",
+      "file": "availability-cells.pb",
+      "sha256": "710f04fd4f30b9500bf045e511ebf663829ae8b9f7f5e7e5f21c3589cb8a9158",
+      "bytes": 29777,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "29777",
+        "Content-Type": "application/json",
+        "Expires": "Tue, 06 Oct 2026 03:05:14 GMT",
+        "Last-Modified": "Fri, 20 Feb 2026 19:42:28 GMT",
+        "ETag": "\"fd48bafecc3ae15da418801a1f0b3062\"",
+        "x-goog-generation": "1771616548451668",
+        "x-goog-metageneration": "1",
+        "x-goog-stored-content-encoding": "identity",
+        "x-goog-stored-content-length": "29777",
+        "x-amz-checksum-crc32c": "ySCXhQ==",
+        "Accept-Ranges": "bytes",
+        "Date": "Tue, 06 Oct 2026 03:08:15 GMT",
+        "X-Cache": "HIT",
+        "X-Cache-Hits": "0",
+        "X-Timer": "S1791256095.143314,VS0,VE2",
+        "Strict-Transport-Security": "max-age=31557600",
+        "X-Robots-Tag": "none",
+        "server": "whydoyoucare?",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block",
+        "Vary": "Origin, Accept-Encoding",
+        "Cache-Control": "max-age=60, must-revalidate"
+      },
+      "retrieved_at": "2026-10-06T03:08:17.674326+00:00"
+    }
+  ],
+  "decoded_sha256": "0ae8bf9236b5a89c1187c927d5bf34c0c8d1fc2cffcfe320eda26a6e50e2921a",
+  "geobuf_defaults": {
+    "dimensions": 2,
+    "precision": 6
+  },
+  "admin_status_counts": {
+    "admin0": {
+      "available": 11,
+      "launched": 161,
+      "pending_regulatory": 3,
+      "unknown": 4,
+      "blacklisted": 8,
+      "coming_soon": 65,
+      "exclude": 3
+    },
+    "admin1": {
+      "launched": 40,
+      "unknown": 2,
+      "blacklisted": 2,
+      "pending_regulatory": 2
+    }
+  },
+  "polygon_features": [
+    {
+      "combine": "yes",
+      "status": "launched"
+    },
+    {
+      "combine": "yes",
+      "status": "test"
+    },
+    {
+      "combine": "yes",
+      "status": "blacklisted"
+    },
+    {
+      "combine": "yes",
+      "status": "coming_soon",
+      "expected": "Starting in 2026"
+    },
+    {
+      "combine": "yes",
+      "status": "coming_soon",
+      "expected": "Sold Out"
+    },
+    {
+      "combine": "yes",
+      "status": "coming_soon",
+      "expected": "Starting in 2025"
+    },
+    {
+      "combine": "yes",
+      "status": "coming_soon",
+      "expected": "Service date is unknown at this time"
+    }
+  ],
+  "production_ready": false,
+  "blockers": [
+    "Country status tables have no boundary geometry",
+    "Map overlays are not a complete all-product eligibility layer",
+    "Complete aviation exceptions and territorial-water boundaries not established"
+  ]
+}

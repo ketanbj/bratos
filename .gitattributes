@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Preserve downloaded evidence bytes for checksum reproducibility.
+data/coverage/raw/* -text
+data/coverage/raw/*.headers -diff
+*.pb binary

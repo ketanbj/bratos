@@ -1,0 +1,24 @@
+HTTP/2 200 
+content-type: application/json
+expires: Tue, 06 Oct 2026 03:05:14 GMT
+last-modified: Fri, 20 Feb 2026 19:42:28 GMT
+etag: "fd48bafecc3ae15da418801a1f0b3062"
+x-goog-generation: 1771616548451668
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 29777
+x-amz-checksum-crc32c: ySCXhQ==
+accept-ranges: bytes
+date: Tue, 06 Oct 2026 03:05:15 GMT
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1791255915.911944,VS0,VE111
+strict-transport-security: max-age=31557600
+x-robots-tag: none
+server: whydoyoucare?
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Origin, Accept-Encoding
+cache-control: max-age=60, must-revalidate
+content-length: 29777
+

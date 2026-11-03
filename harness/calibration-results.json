@@ -1,0 +1,243 @@
+{
+  "measured_at": "2026-10-06T13:53:03.444151+00:00",
+  "environment": {
+    "backend": "CloudLab Wisconsin",
+    "hosts": 2,
+    "hardware": "c220g1",
+    "workers": 16,
+    "workers_per_host": 8,
+    "coordinator": "local laptop over SSH"
+  },
+  "production_run_started": false,
+  "commercial_union_verified": false,
+  "measurements": {
+    "initial_starlink": {
+      "run_id": "option2-20261006T031338Z-f8168188",
+      "fingerprint": "495c3316dc72715a0b3d89d35cd59c27c3071ce3ac128a7ba992dce101e72832",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "b67b12f633717bb6c34040c70f1cb37a51e30f2b97c3b9ba35ee046262f088d9",
+      "cells": 2016842,
+      "provider": "starlink",
+      "satellites": 11122,
+      "epochs": [
+        {
+          "epoch": 0,
+          "wall_seconds": 132.95802708296105,
+          "visible_cells": 2016842,
+          "candidate_edges": 304178710,
+          "phase_seconds": null
+        }
+      ],
+      "maximum_worker_rss_mib": 2388.2578125
+    },
+    "starlink": {
+      "run_id": "option2-20261006T032558Z-a24fe6ab",
+      "fingerprint": "82e20b7039a15a6c049f8f96e9ae927f38d03b94912bba12ea4a355175943df8",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "b67b12f633717bb6c34040c70f1cb37a51e30f2b97c3b9ba35ee046262f088d9",
+      "cells": 2016842,
+      "provider": "starlink",
+      "satellites": 11122,
+      "epochs": [
+        {
+          "epoch": 0,
+          "wall_seconds": 59.370696541969664,
+          "visible_cells": 2016842,
+          "candidate_edges": 304178710,
+          "phase_seconds": {
+            "geometry": 7.512254541972652,
+            "oracle": 23.265212750062346,
+            "centralized": 17.868434750009328,
+            "distributed": 5.353376499959268,
+            "evaluation_and_modeled_latency": 5.3713880410650745
+          }
+        },
+        {
+          "epoch": 1,
+          "wall_seconds": 62.14992654102389,
+          "visible_cells": 2016842,
+          "candidate_edges": 304185121,
+          "phase_seconds": {
+            "geometry": 7.60696145799011,
+            "oracle": 23.15886608301662,
+            "centralized": 19.845857916981913,
+            "distributed": 5.798108833027072,
+            "evaluation_and_modeled_latency": 5.740112249972299
+          }
+        },
+        {
+          "epoch": 2,
+          "wall_seconds": 61.54573270806577,
+          "visible_cells": 2016842,
+          "candidate_edges": 304190386,
+          "phase_seconds": {
+            "geometry": 7.606606665998697,
+            "oracle": 24.372924042050727,
+            "centralized": 18.116890750010498,
+            "distributed": 5.393583166995086,
+            "evaluation_and_modeled_latency": 6.0556524159619585
+          }
+        }
+      ],
+      "maximum_worker_rss_mib": 2233.80859375
+    },
+    "late_starlink": {
+      "run_id": "option2-20261006T032947Z-fc81cd5e",
+      "fingerprint": "bba916dbb25cd9c88d5d5c09ed08d09d56adda2497374afa13cec010e68271c5",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "b67b12f633717bb6c34040c70f1cb37a51e30f2b97c3b9ba35ee046262f088d9",
+      "cells": 2016842,
+      "provider": "starlink",
+      "satellites": 11122,
+      "epochs": [
+        {
+          "epoch": 1199,
+          "wall_seconds": 65.47818308300339,
+          "visible_cells": 2016842,
+          "candidate_edges": 304271829,
+          "phase_seconds": {
+            "geometry": 8.01982433302328,
+            "oracle": 26.03764824999962,
+            "centralized": 18.572022374952212,
+            "distributed": 6.873331542010419,
+            "evaluation_and_modeled_latency": 5.975325125036761
+          }
+        }
+      ],
+      "maximum_worker_rss_mib": 2247.625
+    },
+    "kuiper": {
+      "run_id": "option2-20261006T033511Z-8a5b156d",
+      "fingerprint": "2649ba90c061ca7469baa575868c00ff93a2d6446894456c51b7ee087a2435b6",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "b67b12f633717bb6c34040c70f1cb37a51e30f2b97c3b9ba35ee046262f088d9",
+      "cells": 2016842,
+      "provider": "kuiper",
+      "satellites": 391,
+      "epochs": [
+        {
+          "epoch": 0,
+          "wall_seconds": 4.88981695799157,
+          "visible_cells": 1870627,
+          "candidate_edges": 15667818,
+          "phase_seconds": {
+            "geometry": 0.47461187501903623,
+            "oracle": 1.0138099170289934,
+            "centralized": 1.057748083025217,
+            "distributed": 1.9281463329680264,
+            "evaluation_and_modeled_latency": 0.4154295000480488
+          }
+        }
+      ],
+      "maximum_worker_rss_mib": 241.26953125
+    },
+    "cluster_starlink": {
+      "run_id": "option2-20261006T133617Z-813aeb1d",
+      "fingerprint": "2ce47bd9be305ac0d3ac42d5c95396f993c66776d0b0473082e4a840fccb1f4e",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "c43107e3e4577ad6790f61af6d7e53c92baad448192118823cf9ea844776b51f",
+      "cells": 2016842,
+      "provider": "starlink",
+      "satellites": 11122,
+      "coordinator": "CloudLab node0, detached, mutually authenticated TLS",
+      "epochs": [
+        {
+          "epoch": 0,
+          "wall_seconds": 36.33136356999603,
+          "visible_cells": 2016842,
+          "candidate_edges": 304178710,
+          "phase_seconds": {
+            "geometry": 7.846507483001915,
+            "oracle": 12.146569132994046,
+            "centralized": 10.019129322005028,
+            "distributed": 4.5867916619972675,
+            "evaluation_and_modeled_latency": 1.7322910810034955
+          }
+        },
+        {
+          "epoch": 1,
+          "wall_seconds": 35.93649471500248,
+          "visible_cells": 2016842,
+          "candidate_edges": 304185121,
+          "phase_seconds": {
+            "geometry": 7.499648928998795,
+            "oracle": 12.156733433002955,
+            "centralized": 9.876689660995908,
+            "distributed": 4.678639798999939,
+            "evaluation_and_modeled_latency": 1.7247115660065901
+          }
+        },
+        {
+          "epoch": 2,
+          "wall_seconds": 36.60446328499529,
+          "visible_cells": 2016842,
+          "candidate_edges": 304190386,
+          "phase_seconds": {
+            "geometry": 7.6395242209982825,
+            "oracle": 12.117162985996401,
+            "centralized": 10.147052226006053,
+            "distributed": 5.049409360995924,
+            "evaluation_and_modeled_latency": 1.6512268660007976
+          }
+        }
+      ],
+      "maximum_worker_rss_mib": 2233.33203125,
+      "matches_laptop_metrics": true,
+      "central_assignment_identity_matches": true
+    },
+    "cluster_nodelay_starlink": {
+      "run_id": "option2-20261006T134713Z-f682e938",
+      "fingerprint": "b64964268eb7553114d4c0f89c6da65eab840bd7279e8e912e3fe385896c95b6",
+      "catalog_sha256": "391087a20fb86d7e319661f38090210d462c17d4390d4b235510a1fcb035a563",
+      "grid_sha256": "c43107e3e4577ad6790f61af6d7e53c92baad448192118823cf9ea844776b51f",
+      "cells": 2016842,
+      "provider": "starlink",
+      "satellites": 11122,
+      "coordinator": "CloudLab node0, detached, mutually authenticated TLS",
+      "epochs": [
+        {
+          "epoch": 0,
+          "wall_seconds": 33.17638662499667,
+          "visible_cells": 2016842,
+          "candidate_edges": 304178710,
+          "phase_seconds": {
+            "geometry": 7.574635165998188,
+            "oracle": 10.216111096000532,
+            "centralized": 9.042587578995153,
+            "distributed": 4.6270825270039495,
+            "evaluation_and_modeled_latency": 1.7159026770023047
+          }
+        },
+        {
+          "epoch": 1,
+          "wall_seconds": 33.37884975099587,
+          "visible_cells": 2016842,
+          "candidate_edges": 304185121,
+          "phase_seconds": {
+            "geometry": 7.61318838599982,
+            "oracle": 10.363501784995606,
+            "centralized": 8.940303877003316,
+            "distributed": 4.74228177099576,
+            "evaluation_and_modeled_latency": 1.7194949860058841
+          }
+        }
+      ],
+      "maximum_worker_rss_mib": 2255.71484375,
+      "matches_laptop_metrics": true,
+      "central_assignment_identity_matches": true
+    }
+  },
+  "extrapolations": {
+    "starlink_full_orbit_hours": 20.712044906171894,
+    "starlink_epoch_seconds_min_max": [
+      59.370696541969664,
+      65.47818308300339
+    ],
+    "kuiper_full_orbit_hours": 1.62993898599719,
+    "limits": "Short sampled-epoch extrapolations, not full-orbit measurements; exclude setup/checkpoint overhead, queue time, and uncertainty. Node-count scaling beyond two hosts is not measured.",
+    "allocation_local_starlink_full_orbit_hours": 11.092539395998756
+  },
+  "selected_domain": "global-study; all 2,016,842 Earth cells; no commercial availability claim",
+  "allocation_expiration": "2026-10-07T14:04:00-04:00",
+  "cluster_recovery_verified": true
+}

@@ -1,0 +1,7 @@
+-r ../requirements.txt
+numpy==2.2.6
+scipy==1.15.3
+geobuf==2.0.0
+protobuf==7.36.2
+click==8.5.0
+six==1.17.0

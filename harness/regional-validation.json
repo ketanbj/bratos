@@ -1,0 +1,122 @@
+{
+  "scope": "Three-epoch calibration, not a 100-minute production result; synthetic demand/RF/control formulas",
+  "pilot_run": "option2-20261006T180526Z-f8ca6e11",
+  "baseline_run": "option2-20261006T141004Z-347d8fc9",
+  "pilot_fingerprint": "273891ab9db833458b7a90a4e97f430964312e8f4f0578de727cb429ddd6a4b1",
+  "provider": "kuiper",
+  "seed": 1,
+  "cells": 2016842,
+  "satellites": 391,
+  "regional_controllers": 6,
+  "epochs": 3,
+  "epoch_seconds": 5,
+  "workers": 8,
+  "hosts": 2,
+  "baseline_first_three_epoch_metrics_match": true,
+  "maximum_absolute_metric_difference": 0,
+  "cell_counts_by_region": [
+    247832,
+    368177,
+    382908,
+    418814,
+    294298,
+    304813
+  ],
+  "regional_capacity_shares_by_epoch": [
+    [
+      165,
+      306,
+      249,
+      382,
+      206,
+      256
+    ],
+    [
+      163,
+      306,
+      250,
+      380,
+      209,
+      256
+    ],
+    [
+      164,
+      307,
+      251,
+      381,
+      208,
+      253
+    ]
+  ],
+  "unused_capacity_shares_by_epoch": [
+    0,
+    0,
+    0
+  ],
+  "wall_seconds_by_epoch": [
+    5.349372018004942,
+    5.622764318999543,
+    5.309863106995181
+  ],
+  "mean_regional_phase_wall_seconds": 2.0680354356688135,
+  "systems": {
+    "centralized": {
+      "demand_satisfaction": 0.0012261001300219968,
+      "pair_accuracy": 0.013427109974424553,
+      "satellite_accuracy": 0.013427109974424553,
+      "outage_ratio": 0.9992245302309254,
+      "utility": 1392.0534577017113,
+      "latency_p50_ms": 6741056.0963823935,
+      "latency_p95_ms": 6741061.844404045,
+      "deadline_miss_ratio": 1.0,
+      "backhaul_mb": 15046.613504
+    },
+    "centralized_periodic": {
+      "demand_satisfaction": 0.0011863699625357476,
+      "pair_accuracy": 0.0123614663256607,
+      "satellite_accuracy": 0.0123614663256607,
+      "outage_ratio": 0.9992245302309254,
+      "utility": 1365.11232948805,
+      "latency_p50_ms": 6741056.0963823935,
+      "latency_p95_ms": 6741061.844404045,
+      "deadline_miss_ratio": 1.0,
+      "backhaul_mb": 5015.503488
+    },
+    "regional_centralized": {
+      "demand_satisfaction": 0.0012186450654969407,
+      "pair_accuracy": 0.012574595055413468,
+      "satellite_accuracy": 0.012574595055413468,
+      "outage_ratio": 0.9992245302309254,
+      "utility": 1372.2633266943683,
+      "latency_p50_ms": 1502840.4084801225,
+      "latency_p95_ms": 1502899.6875885916,
+      "deadline_miss_ratio": 1.0,
+      "backhaul_mb": 15042.215852
+    },
+    "distributed": {
+      "demand_satisfaction": 0.0012946586768543594,
+      "pair_accuracy": 0.03537936913895993,
+      "satellite_accuracy": 0.03537936913895993,
+      "outage_ratio": 0.9992245302309254,
+      "utility": 1448.86025693622,
+      "latency_p50_ms": 9791.469901854322,
+      "latency_p95_ms": 9791.478068978007,
+      "deadline_miss_ratio": 1.0,
+      "backhaul_mb": 7522.405888
+    },
+    "oracle": {
+      "demand_satisfaction": 0.0014616144448547277,
+      "pair_accuracy": 1.0,
+      "satellite_accuracy": 1.0,
+      "outage_ratio": 0.9992245302309254,
+      "utility": 1563.996378817883
+    }
+  },
+  "limitations": [
+    "Fixed synthetic ground-station Voronoi regions, not continents or operator sites.",
+    "Visibility-proportional quotas without within-epoch borrowing.",
+    "All controllers are simulated; the execution coordinator is not an independent controller deployment.",
+    "Latency/backhaul are modeled; epoch wall time measures simulator execution.",
+    "The pilot froze source before a subsequent score-cache regression fix; normal epoch flow is unchanged."
+  ]
+}
